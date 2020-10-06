@@ -38,7 +38,7 @@ app.post("/", function(req, res) {
 
   const options = {
     method: "POST",
-    auth: "lydell1:692835644e963eae2efa9e4ff8c11a0c-us18"
+    auth: "lydell1:624ec259df59d9ee77971834d8bfb61e-us18"
   };
 
   const request = https.request(url, options, function(response) {
@@ -70,7 +70,7 @@ app.listen(process.env.PORT || 3000, function() {
 });
 
 // API key
-// 692835644e963eae2efa9e4ff8c11a0c-us18
+// 624ec259df59d9ee77971834d8bfb61e-us18
 
 // List id
 // 88ac2244ff
